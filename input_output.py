@@ -53,6 +53,45 @@ num = int(input("enter a number:"))
 print("You entered",num,sep=":")
 '''
 #Example 3:-
-  
+'''
 float = float(input("enter a float value:"))
 print("Value of Pi",float,sep=":")
+'''
+#Example 4:-
+'''
+a = input()
+x,y,z = a.split(" ")
+sum = int(x)+int(y)+int(z)
+
+print(sum)
+'''
+#example 5:-
+''''
+ # "John",25
+
+a = input("enter your name and age: ")
+name,age = a.split(",")
+print("Name:",name,",age:",age,sep="")
+'''
+#example 6:-
+'''
+a = int(input('enter a number:'))
+print("countdowm:5 4 3 2 1 ",end="Blast off!")
+'''
+#example 7:- 
+'''
+r,s = input("enter a and b values: ").split(",")
+a = int(r)
+b = int(s)
+print("addition:",a+b,"subtraction:",a-b,"multiplication:",a*b,"division:",a/b,sep=",")
+'''
+#example 8:-
+''''
+a = 10
+b = 5
+print("10>5:",a>b,",10<5:",a<b,",10==5:",a==b,",10!=5:",a!=b,sep="")
+'''
+#example 11:-
+# Formatted (f)
+x,y = input("enter your name and age:").split(",")
+print(f"Name:{x},age:{y}years")
